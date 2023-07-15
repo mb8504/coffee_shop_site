@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero { 
+    background-color: #333;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/pexels-igor-starkov-1307698.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+}
+
+
+.hero header { 
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-top: 34px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+/* .toggle {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: url(../images/menubar.png);
+    background-repeat: no-repeat;
+    background-size: 39px;
+    background-position: center; 
+    cursor: pointer;
+}
+
+.toggle.active {
+    background: url(../images/close.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center; 
+} */
+
+/* ie9+ */
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+.toggle {
+    position: absolute;
+    background: url(../images/menubar.png);
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: 39px;
+    background-position: center; 
+    cursor: pointer;
+    border: none;
+    top: 1rem;
+    right: 0.6rem;
+    z-index: 9999;
+}
+
+.toggle[aria-expanded='true'] {
+    background: url(../images/close.png);
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: 39px;
+    background-position: center; 
+    cursor: pointer;
+    border: none;
+    top: 1rem;
+    right: 0.6rem;
+    z-index: 9999;
+}
+
+.primary-nav {
+    background: hsl(0, 0%, 0%, 0.85);
+    position: fixed;
+    inset: 0 0 0 30%;
+    padding: 5rem 2em;
+    transform: translateX(100%);
+    transition: transform 350ms ease-out;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    padding-bottom: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.primary-nav[data-visible='true'] {
+    transform: translateX(0%);
+}

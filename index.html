@@ -3,31 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Drip & Sip Coffee Shop</title>
+    <script src="nav.js" defer></script>
 </head>
 <body>
-    <!-- NAVBAR -->
-    <nav>
-        <div class="navbar-container">
+    <!-- HEADER AND HERO -->
+    <section class="hero active">
+        <header>
             <div class="logo">
-
+                LOGO
             </div>
-            <div class="navbar-links">
-                <ul>
+            <!-- <div class="toggle active">
+               
+            </div> -->
+            <button class="toggle" aria-controls="primary-nav" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+            </button>
+
+            <nav>
+                <ul id="primary-nav" data-visible="false" class="primary-nav">
+                    <li><a href="">Home</a></li>
                     <li><a href="">Menu</a></li>
-                    <li><a href="">About Us</a></li>
+                    <li><a href="">Order Online</a></li>
+                    <li><a href="">Merch</a></li>
+                    <li><a href="">Subscription</a></li>
                     <li><a href="">Contact & Hours</a></li>
-                </ul>    
-            </div>
-        </div>
-    </nav>
-    <!-- END NAVBAR -->
-    
-    <!-- START HEADER -->
-    <header>
+                    <li><a href="">We're Hiring!</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+    <!-- END HEADER AND HERO -->
 
-    </header>
-    <!-- END HEADER -->
+    <section class="intro">
+        <div class="container">
+            <h1>More Than Fresh Coffee</h1>
+            <p>
+                We opened our doors 15 years ago and have enjoyed being a part of our vibrant community in Philadelphia. From the morning coffee before work to the late-night study sesh, we've got the perfect brew for you. Sit and enjoy the warm atmosphere full of music and comfy couches. Or, grab your latte to go along with some of our freshly baked pasteries and decadent desserts. 
+            </p>
+            <button>
+                See our full menu
+            </button>
+        </div>
+    </section>
+
+    <section class="subscription">
+        <div class="container">
+            <h2>Great Coffee Delivered to Your Door</h2>
+            <p>
+                Brew the coffee you love in the comfort of your own home with one of our three tiered subscriptions. 
+            </p>
+            <button>
+                Start Brewing
+            </button>
+
+            <h2>Gift Cards</h2>
+            <p>
+                Looking to give the perfect gift? We got you covered! Gift cards are now available at each location. 
+            </p>
+        </div>
+    </section>
+
+    <section class="quotes">
+        <div class="container">
+            Quotes Go HERE!!!
+        </div>
+    </section>
+
+    <footer>
+        
+    </footer>
 
 </body>
 </html>
