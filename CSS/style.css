@@ -7,6 +7,26 @@
     font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+    padding-bottom: 0.5rem;
+    font-size: 36px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+button {
+    margin: 28px 0
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    line-height: 1.5;
+}
+
 .hero { 
     background-color: #333;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/pexels-igor-starkov-1307698.jpg);
@@ -33,25 +53,6 @@
     font-size: 35px;
 }
 
-/* .toggle {
-    position: relative;
-    width: 80px;
-    height: 80px;
-    background: url(../images/menubar.png);
-    background-repeat: no-repeat;
-    background-size: 39px;
-    background-position: center; 
-    cursor: pointer;
-}
-
-.toggle.active {
-    background: url(../images/close.png);
-    background-repeat: no-repeat;
-    background-size: 25px;
-    background-position: center; 
-} */
-
-/* ie9+ */
 .sr-only:not(:focus):not(:active) {
   clip: rect(0 0 0 0); 
   clip-path: inset(50%);
@@ -116,3 +117,8 @@ nav ul li a{
 .primary-nav[data-visible='true'] {
     transform: translateX(0%);
 }
+
+.intro .container {
+    padding-top: 100px;
+}
+
