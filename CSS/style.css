@@ -17,7 +17,22 @@ p {
 }
 
 button {
-    margin: 28px 0
+    border: 2px solid #27CEEF;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #27CEEF;
+    font-weight: 450;
+    background-color: transparent;  
+}
+
+.button {
+    text-align: center;
+    margin: 58px 0;
 }
 
 .container {
