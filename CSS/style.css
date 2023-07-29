@@ -137,6 +137,10 @@ nav ul li a{
     padding-top: 90px;
 }
 
+.intro .container button {
+    margin-bottom: 72px;
+}
+
 .container img {
     height: auto;
     width: 100%;
@@ -206,4 +210,12 @@ nav ul li a{
 .gift-cards .container .contest-image {
     padding-top: 25px;
     text-align: center;
+}
+
+.carousel-container {
+    background-color: #121212;
+}
+
+.carousel-container .review img {
+    width: 100%;
 }
