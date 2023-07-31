@@ -269,6 +269,7 @@ h3 {
 
 form button {
     margin-top: 25px;
+    margin-bottom: 90px;
 }
 
 @media (min-width: 768px) {
@@ -277,5 +278,41 @@ form button {
     }
 }
 
+.hr-line {
+    border: 1px solid #efefef;
+}
+
+.social {
+    padding-top: 90px;
+}
+
+
+.social-copyright .container {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.social-copyright .container img {
+    height: 75px;
+    width: 30px;
+    margin: 0px 20px 40px;
+}
+
+.social-copyright .container p {
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    .social-copyright .container img {
+        height: 30px;
+        width: 30px;
+        margin: 0px 20px 40px;
+    }
+    .social-copyright .container {
+        padding-bottom: 45px;
+    }
+}
 
 /* END FOOTER */
+
+
