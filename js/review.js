@@ -20,7 +20,7 @@ const reviews = [
         img: 'images/quote 5.png',
     }
 ];
-const time = 2000;
+const time = 4000;
 const img = document.getElementById('quote-img');
 
 
@@ -40,3 +40,5 @@ function changeImg(){
 }
 
 window.onload = changeImg;
+
+

@@ -42,6 +42,7 @@ button {
     line-height: 1.5;
 }
 
+/* START HERO */
 .hero { 
     background-color: #333;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/pexels-igor-starkov-1307698.jpg);
@@ -60,7 +61,9 @@ button {
     align-items: center;
     justify-content: space-between;
 }
+/* END HERO */
 
+/* START NAV */
 .logo {
     padding-top: 34px;
     font-weight: bold;
@@ -132,7 +135,9 @@ nav ul li a{
 .primary-nav[data-visible='true'] {
     transform: translateX(0%);
 }
+/* END NAV */
 
+/* START INTRO */
 .intro .container {
     padding-top: 90px;
 }
@@ -146,7 +151,9 @@ nav ul li a{
     width: 100%;
     padding-bottom: 45px;
 }
+/* END INTRO */
 
+/* START SUBSCRIPTION */
 .subscription .container {
     background-color: #333;
     display: flex;
@@ -166,7 +173,6 @@ nav ul li a{
 .subscription .container img {
     padding: 0;
 }
-
 
 @media (min-width: 768px) {
     .subscription .container {
@@ -190,8 +196,9 @@ nav ul li a{
         padding-bottom: 0.5px;
     }
 }
+/* END SUBSCRIPTION */
 
-
+/* START GIFT CARD  */
 .gift-cards .container {
     padding-top: 90px;
 }
@@ -216,6 +223,59 @@ nav ul li a{
     background-color: #121212;
 }
 
-.carousel-container .review img {
+.carousel-container img {
     width: 100%;
 }
+
+@media (min-width: 768px) {
+    .carousel-container img {
+        height: 300px;
+        width: 650px;
+    }
+
+    .carousel-container {
+        margin-top: 90px;
+        margin-bottom: 90px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+/* END GIFT CARD */
+
+/* START FOOTER – NEWSLETTER*/
+.newsletter {
+    padding-top: 90px;
+    text-align: center;
+}
+
+h3 {
+    color: #03338C;
+    font-size: 24px;
+    padding-bottom: 0.5rem;
+}
+
+.newsletter p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.email input {
+    border: none;
+    border-bottom:solid #03338C 2px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+form button {
+    margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+    .email input {
+        width: 50%;
+    }
+}
+
+
+/* END FOOTER */
